@@ -1,0 +1,43 @@
+# Django & Database
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Environments & Secrets
+.env
+.env.*
+.venv/
+env/
+venv/
+ENV/
+local_settings.py
+
+# Python Packaging & Testing
+*.py[cod]
+*$py.class
+*.egg-info/
+.installed.cfg
+*.egg
+build/
+dist/
+htmlcov/
+.tox/
+.coverage
+.pytest_cache/
+.mypy_cache/
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
